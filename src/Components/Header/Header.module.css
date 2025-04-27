@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    background: rgba(200, 200, 200, 0.1);
+    /* width: 100%; */
+    padding: 0 20px;
+}
+
+.header__p {
+    font-size: 23px;
+    color: aqua;
+    margin-right: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-weight: 500;
+    font-size: 19px;
+    color: #FFF;
+    text-decoration: inherit;
+}
