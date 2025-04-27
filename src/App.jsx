@@ -2,6 +2,7 @@ import Card from "./Components/Card/Card"
 import Button from "./Components/Button/Button"
 import Footer from "./Components/Footer/Footer"
 import Header from "./Components/Header/Header"
+import Recommendation from "./Components/Recommendation/Recommendation"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Card title="Windows Vista" amount="700" />
         <Card title="Windows Server 2008" amount="5000" />
       </div>
+      <Recommendation/>
       <Footer />
     </>
   )
